@@ -4,7 +4,7 @@
   "description": "node.js chat application",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development nodemon index.js",
+    "start": "SET NODE_ENV=development & nodemon index/index.js",
     "prod": "NODE_ENV=production node index.js"
   },
   "author": "",
