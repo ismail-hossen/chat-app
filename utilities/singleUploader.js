@@ -47,7 +47,6 @@ function uploader(
     },
   });
 
-  //   return multer upload object
   return upload;
 }
 
